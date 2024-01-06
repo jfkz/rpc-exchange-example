@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint -c .eslintrc.js --ext .ts",
     "build": "tsc",
-    "start:client": "ts-node ./code/client.js",
+    "start:client": "node ./code/client.js",
     "start:watch": "nodemon ./code/client.js"
   },
   "author": "",
