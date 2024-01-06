@@ -1,0 +1,39 @@
+{
+  "name": "grenache-nodejs-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint -c .eslintrc.js --ext .ts",
+    "build": "tsc",
+    "start:client": "ts-node ./src/client.ts",
+    "start:watch": "nodemon ./src/client.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "grenache-nodejs-link": "^1.0.0",
+    "grenache-nodejs-ws": "^0.7.10",
+    "lodash": "^4.17.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202",
+    "@types/websocket": "^1.0.10",
+    "@types/ws": "^8.5.10",
+    "@typescript-eslint/eslint-plugin": "^5.26.0",
+    "@typescript-eslint/parser": "^5.26.0",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsdoc": "^39.3.2",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^3.0.2",
+    "prettier": "^2.6.2"
+  }
+}
